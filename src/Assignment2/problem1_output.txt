@@ -1,0 +1,11 @@
+Enter Customer Details
+Age:
+34
+Salary:
+32000
+Credit Score:
+659
+Employment Type, Choices (Salaried,SelfEmployed)
+Salaried
+Congrats Your are Eligibility
+Task run:Assignment 2 Problem 1 execution time:22273

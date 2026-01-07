@@ -1,0 +1,7 @@
+Enter  Details
+Income:
+800000
+Gender: (Male,Female)
+Female
+Your Tax Slab is 10%
+Task run:Assignment 2 Problem 2 execution time:11168
