@@ -1,5 +1,7 @@
 package Assignment2;
 
+import java.util.Scanner;
+
 public class Problem8Insurance {
     /*
     Problem 8: Insurance Policy Eligibility
@@ -25,6 +27,20 @@ public class Problem8Insurance {
             System.out.println("Your Premium is:"+basePremium);
         }
         System.out.println("Not Eligible");
+    }
 
+    public void test(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Insurance Details:");
+        System.out.println("Age:");
+        int age = sc.nextInt();
+        System.out.println("Current Basic Premium");
+        double basicPremium = sc.nextDouble();
+        System.out.println("Do you Smoke? yes/no :");
+        boolean isSmoker = sc.next().equalsIgnoreCase("yes");
+        System.out.println("Do you have critical illness ? yes/no :");
+        boolean hasIllness = sc.next().equalsIgnoreCase("yes");
+        checkInsurance(age,basicPremium,isSmoker,hasIllness);
+        sc.close();
     }
 }

@@ -38,8 +38,11 @@ public class Problem9Result {
     public void test(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Marks  of sections: ");
+        System.out.println("Section A:");
         int sectionA = sc.nextInt();
+        System.out.println("Section B:");
         int sectionB = sc.nextInt();
+        System.out.println("Section C:");
         int sectionC = sc.nextInt();
         int[] array = {sectionA,sectionB,sectionC};
         determineResult(array);
