@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment1;
 
 public class ExtraNaturalNumberSum {
     int getNaturalNumberSum(int n){

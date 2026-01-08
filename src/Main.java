@@ -1,4 +1,4 @@
-import Assignment2.Problem6ATM;
+import Assignment1.Problem6ATM;
 
 public class Main {
 
