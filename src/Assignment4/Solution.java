@@ -23,35 +23,58 @@ public class Solution {
         System.out.println("Max:"+max+" Min:"+min);
     }
 
+    public void test_problem1(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        printMinMaxValueOfArray(array);
+        sc.close();
+    }
 
 
     //problem2
-    public  static  int[] leftRotateArray(int[] array,int d){
-        while(d>0) {
+    public  static  int[] leftRotateArray(int[] array,int rotation){
+        while(rotation>0) {
             int lastElement = array[array.length - 1];
-
             for (int i = 0; i < array.length - 1; i++) {
                 array[i + 1] = array[i];
             }
             array[0] = lastElement;
-            d--;
+            rotation--;
         }
         return array;
     }
+    public void test_problem2(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        System.out.println("Enter no. of rotation");
+        int rotation = sc.nextInt();
+        int[] rotatedArray = leftRotateArray(array,rotation);
+        for(int i: rotatedArray){
+            System.out.print(i+", ");
+        }
+        sc.close();
+    }
 
     //problem 3
-    public static void countEvenOddElements(){
+    public static void countEvenOddElements( int[] array){
         Scanner sc = new Scanner(System.in);
-        //number of input
-        int n = sc.nextInt();
-        //temp var
-        int temp;
         //count
         int even = 0;
         int odd = 0;
-        for(int i = 0;i<n;i++){
-            temp = sc.nextInt();
-            if(temp%2==0){
+        for(int i : array){
+            if(i%2==0){
                 even++;
             }else {
                 odd++;
@@ -60,9 +83,21 @@ public class Solution {
         System.out.println("Odd:"+odd+" Even:"+even);
         sc.close();
     }
+    public void test_problem3(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        countEvenOddElements(array);
+        sc.close();
+    }
 
     //problem 4
-    public static void secondLargest(int[] array){
+    public static void secondLargestElement(int[] array){
         if(array.length == 1){
             System.out.println("Only one element");
         }else {
@@ -79,6 +114,18 @@ public class Solution {
             System.out.println("Second Largest element is :"+secondLargest);
         }
     }
+    public void test_problem4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        secondLargestElement(array);
+        sc.close();
+    }
 
     // problem 5
     public static int[] sumRowsOfMatrix(int[][] matrix){
@@ -94,6 +141,18 @@ public class Solution {
         return rowSum;
     }
 
+    public void test_problem5(){
+        int[][] matrix = {
+                {1, 2, 3},
+                {4,5,6},
+                {7,8,9}
+                };
+        int[] rowSums = sumRowsOfMatrix(matrix);
+        System.out.println("Sum of Rows");
+        for(int i: rowSums){
+            System.out.print(i+", ");
+        }
+    }
 
     //problem 6
     public  static void isPalindrome(String string){
@@ -174,9 +233,5 @@ public class Solution {
             }
         }
         System.out.println("Count: "+ count);
-    }
-
-    public static void main(String[] args) {
-
     }
 }
