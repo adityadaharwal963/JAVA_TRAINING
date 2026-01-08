@@ -1,204 +1,237 @@
-package Assignment3;
+package Assignment4;
 
 import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Arrays;
+import  java.util.Map;
 public class Solution {
 
-    // problem 1, count odd ,evens in n numbers
-   public static void countOddEvenElement(){
-       Scanner sc = new Scanner(System.in);
-       //number of input
-       int n = sc.nextInt();
-       //temp var
-       int temp;
-       //count
-       int even = 0;
-       int odd = 0;
-       for(int i = 0;i<n;i++){
-           temp = sc.nextInt();
-           if(temp%2==0){
-               even++;
-           }else {
-               odd++;
-           }
-       }
-       System.out.println("Odd:"+odd+" Even:"+even);
-       sc.close();
-   }
+    // problem 1
+    public static void printMinMaxValueOfArray(int[] array){
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for(int i: array){
+            if (i>max){
+                max=i;
+            }
+            if(i<min){
+                min=i;
+            }
+        }
+        System.out.println("Max:"+max+" Min:"+min);
+    }
 
-    // Function for Problem 2
-    public static void printFactorialOfNum(int n){
-        //Constraint
-        if(n>20){
-            System.out.println("Invalid Input");
+    public void test_problem1(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        printMinMaxValueOfArray(array);
+        sc.close();
+    }
+
+
+    //problem2
+    public  static  int[] leftRotateArray(int[] array,int rotation){
+        while(rotation>0) {
+            int lastElement = array[array.length - 1];
+            for (int i = 0; i < array.length - 1; i++) {
+                array[i + 1] = array[i];
+            }
+            array[0] = lastElement;
+            rotation--;
+        }
+        return array;
+    }
+    public void test_problem2(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        System.out.println("Enter no. of rotation");
+        int rotation = sc.nextInt();
+        int[] rotatedArray = leftRotateArray(array,rotation);
+        for(int i: rotatedArray){
+            System.out.print(i+", ");
+        }
+        sc.close();
+    }
+
+    //problem 3
+    public static void countEvenOddElements( int[] array){
+        Scanner sc = new Scanner(System.in);
+        //count
+        int even = 0;
+        int odd = 0;
+        for(int i : array){
+            if(i%2==0){
+                even++;
+            }else {
+                odd++;
+            }
+        }
+        System.out.println("Odd:"+odd+" Even:"+even);
+        sc.close();
+    }
+    public void test_problem3(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        countEvenOddElements(array);
+        sc.close();
+    }
+
+    //problem 4
+    public static void secondLargestElement(int[] array){
+        if(array.length == 1){
+            System.out.println("Only one element");
         }else {
-            long factorial = 1;
-            if(n==0 || n==1){
-                System.out.println("Factorial of "+n+" is "+factorial);
-            }
-            int j = 1;
-            while(j<=n){
-                factorial*=j;
-                j++;
-            }
-            System.out.println("Factorial of "+n+" is "+factorial);
-        }
-    }
+            int largest = Integer.MIN_VALUE;
+            int secondLargest = Integer.MIN_VALUE;
 
-    // Function for Problem 3
-    static void sumOfDigitsUntilSingleDigit(int num){
-        int n = num;
-        int sum = 0;
-
-        while(n > 0 || sum > 9){
-            if(n==0){
-                n = sum;
-                sum = 0;
-            }
-            sum += n % 10;
-            n /= 10;
-        }
-        System.out.println("The sum of digits until single digit of number "+num+" is: "+sum);
-    }
-
-    // Function for Problem 4
-    static void primeNumberInRange(int a, int b){
-        ArrayList<Integer> primes = new ArrayList<>();
-        int idx = -1;
-        for(int i = a; i<=b; i++){
-            primes.add(i);
-            idx++;
-            for(int j = 2; j<i/2; j++){
-                if(i % j == 0) {
-                    primes.remove(idx);
-                    idx--;
-                    break;
+            for(int i : array){
+                if(i>largest){
+                    secondLargest = largest;
+                    largest = i;
                 }
             }
+
+            System.out.println("Second Largest element is :"+secondLargest);
         }
-        for(int i : primes){
-            System.out.print(i+" ");
+    }
+    public void test_problem4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of elements:");
+        int n = sc.nextInt();
+        System.out.println("Enter elements");
+        int[] array = new int[n];
+        for(int i=0;i<n;i++){
+            array[i] = sc.nextInt();
+        }
+        secondLargestElement(array);
+        sc.close();
+    }
+
+    // problem 5
+    public static int[] sumRowsOfMatrix(int[][] matrix){
+        int rows = matrix.length;
+        int[] rowSum = new int[rows]; // all initialize to zero
+        for(int i=0;i<rows;i++){
+            int col = matrix[i].length;
+            for(int j =0 ;j<col;j++){
+                rowSum[i]+= matrix[i][j];
+            }
+        }
+        // return array having sum of rows
+        return rowSum;
+    }
+
+    public void test_problem5(){
+        int[][] matrix = {
+                {1, 2, 3},
+                {4,5,6},
+                {7,8,9}
+                };
+        int[] rowSums = sumRowsOfMatrix(matrix);
+        System.out.println("Sum of Rows");
+        for(int i: rowSums){
+            System.out.print(i+", ");
         }
     }
 
-    // Function for Problem 5
-    static void salaryProcessingSystem(int n, ArrayList<Integer> salaries){
-        int total = 0;
-        for(int i:salaries) total += i;
-        System.out.println("Total Salary: "+ total);
-        int avg = total / n;
-        System.out.println("Average Salary: "+ avg);
+    //problem 6
+    public  static void isPalindrome(String string){
+        int len = string.length();
+        char[] array = string.toCharArray();
+        boolean isPalindrome = true;
+        for(int i=0;i<len/2;i++){
+            if(array[i] !=  array[len - 1 - i]){
+                isPalindrome = false;
+                break;
+            }
+        }
+
+        if(isPalindrome){
+            System.out.println("String is palindrome");
+        }else {
+            System.out.println("String is not palindrome");
+        }
+    }
+
+    // problem 7
+    public static void countVowels(String string){
+        char[] chars = string.toCharArray();
         int count = 0;
-        for(int i : salaries) if(i > avg) count++;
-        System.out.println("No. of Employees earning more than Average: " + count);
+        Set<Character> vowels = new HashSet<>(
+                Arrays.asList('a','e','i','o','u')
+        );
+
+        for(char c: chars){
+            if(vowels.contains(c)){
+                count++;
+            }
+        }
+        System.out.println("Vowel in string: "+count);
     }
 
-    // Function for Problem 6
-    public static void printPattern(int n)
-    {
-        int i, j;
+    //problem 8
+    public  static void  countCharFrequency(String string){
+        HashMap<Character,Integer> frequency = new HashMap<>();
+        char[] charArray = string.toCharArray();
 
-        // print row
-        for (i = 0; i < n; i++) {
-            //print spaces
-            for (j = n - i; j > 1; j--) {
-                System.out.print(" ");
+        for(char c: charArray){
+            if(frequency.containsKey(c)){
+                frequency.put(c,1);
+            }else {
+                frequency.put(c,frequency.get(c)+1);
             }
-            // print stars
-            for (j = 0; j <= i; j++) {
-                System.out.print("* ");
-            }
-
-            System.out.println();
+        }
+        for(Map.Entry<Character,Integer> pair : frequency.entrySet()){
+            System.out.println("Char: "+pair.getKey()+" Frequency: "+ pair.getValue());
         }
     }
 
-    // Function for Problem 7
-    static void bankingTransactionAnalyzer(int n, ArrayList<Integer> transactions){
-        int deposits = 0;
-        int withdrawals = 0;
-        int finalBalance = 0;
-        for(int transaction : transactions){
-            if(transaction < 0){
-                withdrawals += transaction;
-            }
-            else {
-                deposits += transaction;
-            }
-            finalBalance += transaction;
-        }
-
-        System.out.println("Deposits: "+ deposits + " Withdrawals: " + withdrawals + " Final Balance: " + finalBalance);
-
-    }
-
-    // Function for Problem 8
-    // print fibonacciSeries while fibonacci number is less than n
-    public static void fibonacciSeries(int n){
-       if(n==0){
-           System.out.println(0);
-       }else{//n==1
-           System.out.println("0 1");
-       }
-       if(n>1){
-           int i = 2;
-           int t = 1 ;//(i-1)+(i-2); for 2
-           while (t<=n){
-               System.out.print(" "+ t);
-               i++;
-               t = (i-1)+(i-2);
-           }// print series while fib no. less than or equal n
-       }
-   }
-
-    // Function for Problem 9
-    static void examResultAnalyzer(int n, ArrayList<Integer> marks){
-        int highestMark = Integer.MIN_VALUE;
-        int lowestMark = Integer.MAX_VALUE;
-        int passedStudents = 0;
-        for(int mark : marks){
-            if(mark > highestMark) highestMark = mark;
-            if(lowestMark > mark) lowestMark = mark;
-            if(mark >= 40) passedStudents++;
-        }
-        System.out.println("Highest Mark: "+highestMark+" Lowest Mark: " + lowestMark + " No. of Students Passed: " + passedStudents);
-    }
-
-    // print indices of stock below Problem 10
-    public static void getIndicOfStockBelow(){
+    // problem 9
+    public static void displayLongestWord(){
         Scanner sc = new Scanner(System.in);
-        //number of input
-        int n = sc.nextInt();
-        //temp var
-        int temp;
-        for(int i = 0;i<n;i++){
-            temp = sc.nextInt();
-            if(temp<10){
-                //print Indices
-                System.out.print(i+" ");
+        System.out.println("Enter sentence in one Line:");
+        String sentence = sc.nextLine();
+        // Split by white space in sentence to words
+        String[] words = sentence.split(" ");
+        String longestWord = "";
+
+        for(String word: words){
+            if(word.length()>longestWord.length()){
+                longestWord = word;
             }
         }
-        sc.close();
+
+        System.out.println("Longest Word: "+longestWord);
     }
 
-
-
-
-    // print indices of stock below 10
-    public static void test_p10(){
-        Scanner sc = new Scanner(System.in);
-        //number of input
-        int n = sc.nextInt();
-        //temp var
-        int temp;
-        for(int i = 0;i<n;i++){
-            temp = sc.nextInt();
-            if(temp<10){
-                System.out.print(i+" ");
+    // problem 10
+    public static void countNamesStartsWithChar(String[] names, Character character, int N ){
+        int count = 0;
+        for(String name : names){
+            if(name.startsWith(character.toString())){
+                count++;
             }
         }
-        sc.close();
+        System.out.println("Count: "+ count);
     }
-
 }
-
