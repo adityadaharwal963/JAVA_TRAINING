@@ -1,0 +1,7 @@
+2024-06-10 10:15:30 INFO Application started
+2024-06-10 10:15:31 WARNING Low memory detected
+2024-06-10 10:15:32 ERROR Failed to connect to database
+2024-06-10 10:15:33 INFO User logged in
+2024-06-10 10:15:34 WARNING Disk space running low
+2024-06-10 10:15:35 ERROR Null pointer exception occurred
+2024-06-10 10:15:36 INFO Application running
