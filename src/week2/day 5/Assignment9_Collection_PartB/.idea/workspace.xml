@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04e8e8a4-2e36-4e06-83b0-68408e642a4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment9_Collection_PartA/src/Problem7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment9_Collection_PartA/src/Problem7.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPENED",
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "aditya_shrawan_daharwal",
+      "fullname": "Aditya Shrawan Daharwal"
+    }
+  }
+}]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "http://gitlab.novelvista.com/aditya_shrawan_daharwal/test_project.git",
+    "second": "2c343b93-1309-4016-9055-630b85d1fa45"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="38KVU98eb8CvXv758Bcs8IakRGj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Problem1.executor": "Run",
+    "Application.Problem10.executor": "Run",
+    "Application.Problem2.executor": "Run",
+    "Application.Problem3.executor": "Run",
+    "Application.Problem4.executor": "Run",
+    "Application.Problem5.executor": "Run",
+    "Application.Problem6.executor": "Run",
+    "Application.Problem7.executor": "Run",
+    "Application.Problem8.executor": "Run",
+    "Application.Problem9.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Problem10">
+    <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem10" />
+      <module name="Assignment9_Collection_PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem6" />
+      <module name="Assignment9_Collection_PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem7" />
+      <module name="Assignment9_Collection_PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem8" />
+      <module name="Assignment9_Collection_PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem9" />
+      <module name="Assignment9_Collection_PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Problem10" />
+        <item itemvalue="Application.Problem9" />
+        <item itemvalue="Application.Problem8" />
+        <item itemvalue="Application.Problem6" />
+        <item itemvalue="Application.Problem7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04e8e8a4-2e36-4e06-83b0-68408e642a4b" name="Changes" comment="" />
+      <created>1768548264795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768548264795</updated>
+    </task>
+    <servers />
+  </component>
+</project>
