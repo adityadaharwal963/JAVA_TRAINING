@@ -8,23 +8,23 @@ public class Problem4 {
     }
 }
 
-abstract class PaymentService{
+interface PaymentService{
 
-    abstract  void processPayment(double amount);
+    abstract public void processPayment(double amount);
 }
 
-class UPIPayment extends PaymentService{
+class UPIPayment implements PaymentService{
 
     @Override
-    void processPayment(double amount) {
+    public void processPayment(double amount) {
         System.out.println("Amount processed by UPI :"+amount);
     }
 }
 
-class CardPayment extends PaymentService{
+class CardPayment implements PaymentService{
 
     @Override
-    void processPayment(double amount) {
+    public void processPayment(double amount) {
         System.out.println("Amount processed by Card :"+amount);
     }
 }
