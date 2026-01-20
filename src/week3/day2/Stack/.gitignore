@@ -27,6 +27,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-100mb-examplefile-com.txt
-100mb-examplefile-com-nio.txt
-100mb-examplefile-com-io.txt

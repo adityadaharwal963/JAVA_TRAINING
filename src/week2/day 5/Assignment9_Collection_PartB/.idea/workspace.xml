@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e8e8a4-2e36-4e06-83b0-68408e642a4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem2.java" afterDir="false" />
@@ -22,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day 2/Assignment7/src/IO/Problem5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment9_Collection_PartA/src/Problem7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment9_Collection_PartA/src/Problem7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

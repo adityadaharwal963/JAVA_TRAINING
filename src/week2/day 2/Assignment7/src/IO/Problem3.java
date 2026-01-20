@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -28,7 +30,7 @@ public class Problem3 {
         }
 
         //write to task file
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter("tasks.txt"))){
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter("IO/tasks.txt"))){
             for(String task:tasks){
                 bw.write(task);
                 bw.newLine();
@@ -38,7 +40,7 @@ public class Problem3 {
         }
 
         // print tasks to cmd
-        try(BufferedReader br = new BufferedReader(new FileReader("tasks.txt"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("IO/tasks.txt"))){
             System.out.println("Tasks:");
             String task = br.readLine();
             while(task!=null){

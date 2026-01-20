@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*;
 
 public class Problem2 {
@@ -34,6 +36,6 @@ public class Problem2 {
     }
 
     public static void main(String[] args) {
-        writeNamesStartWithA("names.txt","filtered_names.txt");
+        writeNamesStartWithA("IO/names.txt", "IO/filtered_names.txt");
     }
 }

@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -16,7 +18,7 @@ public class Problem5 {
 
     static void readEmployeeCsv(){
         ArrayList<Employee> employees = new ArrayList<>();
-        try(BufferedReader reader = new BufferedReader(new FileReader("employees.csv"))){
+        try(BufferedReader reader = new BufferedReader(new FileReader("IO/employees.csv"))){
             try {
 
                 String data = reader.readLine();

@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*;
 
 public class Problem1 {
@@ -29,6 +31,6 @@ public class Problem1 {
     }
 
     public static void main(String[] args) {
-        transferContent("source.txt","destination");
+        transferContent("IO/source.txt", "IO/destination");
     }
 }
