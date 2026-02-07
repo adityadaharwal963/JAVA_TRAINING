@@ -1,0 +1,5 @@
+id,price,year,car_type
+integer,integer,integer,character varying
+101,10000,2025,suv
+102,1000,2026,sux
+4,1000,2024,sux
