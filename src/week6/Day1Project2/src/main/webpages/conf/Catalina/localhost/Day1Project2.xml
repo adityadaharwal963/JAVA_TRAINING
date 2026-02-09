@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/Day1Project2/src/main/webpages">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/Day1Project2/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>
