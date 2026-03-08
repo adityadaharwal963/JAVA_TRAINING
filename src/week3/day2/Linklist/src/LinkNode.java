@@ -9,4 +9,8 @@ public class LinkNode<T>{
         this.prev = null;
     }
 
+    public T getValue() {
+        return this.value;
+    }
+
 }

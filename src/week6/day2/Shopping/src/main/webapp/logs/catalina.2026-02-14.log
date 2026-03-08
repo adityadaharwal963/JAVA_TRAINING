@@ -1,0 +1,114 @@
+14-Feb-2026 12:33:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+14-Feb-2026 12:33:00.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+14-Feb-2026 12:33:00.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+14-Feb-2026 12:33:00.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Feb-2026 12:33:00.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+14-Feb-2026 12:33:00.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Feb-2026 12:33:00.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home
+14-Feb-2026 12:33:00.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1
+14-Feb-2026 12:33:00.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+14-Feb-2026 12:33:00.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:33:00.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:33:00.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2026 12:33:00.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2026 12:33:00.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/temp
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/logging.properties
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2026 12:33:00.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53484
+14-Feb-2026 12:33:00.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2026 12:33:00.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2026 12:33:00.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2026 12:33:00.989 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/adityadaharwal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Feb-2026 12:33:01.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:33:01.383 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [670] milliseconds
+14-Feb-2026 12:33:01.424 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2026 12:33:01.424 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+14-Feb-2026 12:33:01.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml]
+14-Feb-2026 12:33:01.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml] has finished in [247] ms
+14-Feb-2026 12:33:01.684 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:33:01.702 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [316] milliseconds
+14-Feb-2026 12:40:43.418 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:40:43.428 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2026 12:40:43.443 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:40:43.453 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:40:45.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+14-Feb-2026 12:40:45.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+14-Feb-2026 12:40:45.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+14-Feb-2026 12:40:45.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Feb-2026 12:40:45.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+14-Feb-2026 12:40:45.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Feb-2026 12:40:45.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home
+14-Feb-2026 12:40:45.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1
+14-Feb-2026 12:40:45.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+14-Feb-2026 12:40:45.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:40:45.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:40:45.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2026 12:40:45.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2026 12:40:45.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2026 12:40:45.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2026 12:40:45.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2026 12:40:45.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/temp
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/logging.properties
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53505
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2026 12:40:45.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2026 12:40:45.836 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/adityadaharwal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Feb-2026 12:40:46.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:40:46.166 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [593] milliseconds
+14-Feb-2026 12:40:46.200 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2026 12:40:46.200 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+14-Feb-2026 12:40:46.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml]
+14-Feb-2026 12:40:46.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml] has finished in [270] ms
+14-Feb-2026 12:40:46.483 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:40:46.501 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [333] milliseconds
+14-Feb-2026 12:42:27.290 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:42:27.301 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2026 12:42:27.314 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:42:27.330 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:42:29.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+14-Feb-2026 12:42:29.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+14-Feb-2026 12:42:29.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+14-Feb-2026 12:42:29.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+14-Feb-2026 12:42:29.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:42:29.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:42:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2026 12:42:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/apache-tomcat-10.1.52
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/temp
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/logging.properties
+14-Feb-2026 12:42:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2026 12:42:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53515
+14-Feb-2026 12:42:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2026 12:42:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2026 12:42:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2026 12:42:29.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/adityadaharwal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Feb-2026 12:42:29.549 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:42:29.564 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [587] milliseconds
+14-Feb-2026 12:42:29.595 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2026 12:42:29.595 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+14-Feb-2026 12:42:29.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml]
+14-Feb-2026 12:42:29.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/adityadaharwal/Developer/TEST_PROJECT/src/week6/day2/Shopping/src/main/webapp/conf/Catalina/localhost/app.xml] has finished in [263] ms
+14-Feb-2026 12:42:29.870 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 12:42:29.888 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [322] milliseconds
+14-Feb-2026 13:18:21.530 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 13:18:21.553 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2026 13:18:21.579 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2026 13:18:21.592 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

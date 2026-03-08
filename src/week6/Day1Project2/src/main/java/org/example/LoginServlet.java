@@ -21,6 +21,8 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
+
+        req.setAttribute("username",username);
         if(username.equals("rao") && password.equals("koko")) {
             RequestDispatcher dispatcher = req.getRequestDispatcher("SuccessFulServlet");
             dispatcher.forward(req, resp);
@@ -28,5 +30,4 @@ public class LoginServlet extends HttpServlet {
             resp.sendRedirect("FailedServlet");
         }
     }
-
 }

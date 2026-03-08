@@ -24,7 +24,7 @@ public class Problem2 {
     }
 
     static void bookSeat(ArrayList<Integer> booking){
-        availableSeats.removeAll(booking);
+        booking.forEach(availableSeats::remove);
     }
 
     static void displayAvailableSeats(){

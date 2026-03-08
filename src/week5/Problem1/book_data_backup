@@ -1,0 +1,5 @@
+id,price,name
+integer,integer,character varying
+101,550,the_legend
+102,900,the_morals
+103,394,the_founders

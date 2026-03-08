@@ -16,11 +16,10 @@ public class Main {
                 try {
                     switch (choice) {
                         case 1:
-                            System.out.print("ID: "); int id = sc.nextInt(); sc.nextLine();
                             System.out.print("Name: "); String n = sc.nextLine();
                             System.out.print("Designation: "); String d = sc.nextLine();
                             System.out.print("Salary: "); int s = sc.nextInt();
-                            op.insert(id, n, d, s);
+                            op.insert( n, d, s);
                             break;
                         case 2:
                             System.out.print("ID to delete: ");

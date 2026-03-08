@@ -64,9 +64,6 @@ class Transaction implements Comparable<Transaction>{
 public class BankingTransaction {
     TreeMap<Integer, Transaction> transactions = new TreeMap<>();
     ArrayList<Transaction> transactionsList = new ArrayList<>();
-    static boolean isValidTransaction(BankingTransaction transaction) {
-//        if transaction.
-    }
 
 
     public static void main() {

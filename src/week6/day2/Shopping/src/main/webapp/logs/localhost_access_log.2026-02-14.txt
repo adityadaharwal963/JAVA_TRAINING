@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:33:04 +0530] "GET /app HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:33:04 +0530] "GET /app/ HTTP/1.1" 404 760
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:33:13 +0530] "GET /app/Login.html HTTP/1.1" 200 446
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:34:21 +0530] "POST /app/CheckServlet HTTP/1.1" 200 1174
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:35:51 +0530] "POST /app/CalculateServlet HTTP/1.1" 500 1288
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:36:25 +0530] "POST /app/CalculateServlet HTTP/1.1" 500 1288
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:36:30 +0530] "POST /app/CalculateServlet HTTP/1.1" 500 1288
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:36:34 +0530] "POST /app/CalculateServlet HTTP/1.1" 500 1288
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:41:17 +0530] "POST /app/CalculateServlet HTTP/1.1" 200 97
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:41:27 +0530] "POST /app/CheckServlet HTTP/1.1" 200 1174
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:41:34 +0530] "POST /app/CalculateServlet HTTP/1.1" 200 97
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:42:43 +0530] "POST /app/CalculateServlet HTTP/1.1" 200 101

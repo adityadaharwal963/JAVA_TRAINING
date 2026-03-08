@@ -1,0 +1,63 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnect {
+    String driver;
+    String url;
+    String username;
+    String password;
+    String dbname;
+
+    public  boolean getConnection() throws ClassNotFoundException, SQLException {
+        try {
+            Class.forName(driver);
+            Connection conn = DriverManager.getConnection(url+"/"+dbname, username, password);
+            return true;
+        }catch(ClassNotFoundException | SQLException e){
+            return false;
+        }
+    }
+
+    public String getDriver() {
+        return driver;
+    }
+
+    public void setDriver(String driver) {
+        this.driver = driver;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getDbname() {
+        return dbname;
+    }
+
+    public void setDbname(String dbname) {
+        this.dbname = dbname;
+    }
+}

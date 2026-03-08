@@ -23,13 +23,13 @@ public class Problem8 {
 
         char[] bracket = brackets.toCharArray();
         boolean balanced = true;
-        for(int i=0;i<bracket.length;i++){
-            if(bracket[i]=='{'|| bracket[i]=='['||bracket[i]=='('){
-                stack.push(bracket[i]);
-            }else {
-                if(!stack.isEmpty() && match(stack.peek(),bracket[i])){
+        for (char c : bracket) {
+            if (c == '{' || c == '[' || c == '(') {
+                stack.push(c);
+            } else {
+                if (!stack.isEmpty() && match(stack.peek(), c)) {
                     stack.pop();
-                }else {
+                } else {
                     balanced = false;
                     break;
                 }

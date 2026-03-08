@@ -9,12 +9,15 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
+
 @WebServlet(name = "SuccessFulServlet",value = "/SuccessFulServlet")
 public class SuccessFulServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
+        String username = (String)req.getAttribute("username");
         out.println("<!DOCTYPE html>");
         out.println("<html>");
         out.println("<head>");
@@ -22,6 +25,7 @@ public class SuccessFulServlet extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
         out.println("<h1>Login SuccessFul</h1>");
+        out.println("<h1>Welcome "+username+" </h1>");
         out.println("</body>");
         out.println("</html>");
     }

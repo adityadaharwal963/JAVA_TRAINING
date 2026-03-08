@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:09:59 +0530] "GET /Day1Project2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:09:59 +0530] "GET /Day1Project2/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:12 +0530] "GET /Day1Project2/Login.html HTTP/1.1" 200 322
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:17 +0530] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:17 +0530] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:17 +0530] "GET /apple-touch-icon.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:30 +0530] "GET /Day1Project2/Login.html HTTP/1.1" 200 322
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:10:31 +0530] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:11:32 +0530] "POST /Day1Project2/LoginServlet HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:14:48 +0530] "POST /Day1Project2/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Feb/2026:12:14:48 +0530] "GET /Day1Project2/FailedServlet HTTP/1.1" 200 150

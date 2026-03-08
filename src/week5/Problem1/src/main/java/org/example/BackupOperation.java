@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class BackupOperation {
     void importData(String path,String newTableName,Connection conn) throws FileNotFoundException {

@@ -1,15 +1,45 @@
 package org.example;
 
 import java.sql.*;
-import java.util.Scanner;
+import java.util.UUID;
+
 
 public class Operation extends DBConnection {
 
-
-    void insert(int eid, String name, String designation, int salary) throws SQLException {
+    private String getEID(){
+        String sql = "SELECT MAX(eid) FROM employees";
+        String eid = "E000";
+        try (PreparedStatement ps = connection.prepareStatement(sql)) {
+            ps.executeQuery();
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                String id = rs.getString("eid");
+                Integer i = Integer.parseInt(id.substring(1, id.length()-1));
+                if(i<10){
+                    eid = "E00"+i;
+                } else if (i<100) {
+                    eid = "E0"+i;
+                } else if (i<1000) {
+                    eid = "E"+i;
+                }else {
+                    System.out.println("OVERFLOW");
+                    return null;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return eid;
+    }
+    void insert(String name, String designation, int salary) throws SQLException {
+        String eid = getEID();
+        if(eid==null){
+            System.out.println("OVERFLOW");
+            return;
+        }
         String sql = "INSERT INTO employee (eid, name, designation, salary) VALUES (?, ?, ?, ?)";
         try (PreparedStatement ps = connection.prepareStatement(sql)) {
-            ps.setInt(1, eid);
+            ps.setString(1, eid);
             ps.setString(2, name);
             ps.setString(3, designation);
             ps.setInt(4, salary);
@@ -29,7 +59,7 @@ public class Operation extends DBConnection {
 
     void deleteAll() throws SQLException {
         try (Statement st = connection.createStatement()) {
-            st.executeUpdate("TRUNCATE TABLE employee");
+            st.executeUpdate("TRUNCATE TABLE employee;");
             System.out.println("Table cleared.");
         }
     }
@@ -51,7 +81,6 @@ public class Operation extends DBConnection {
         }
     }
 
-
     void view(String query, Object param) throws SQLException {
         try (PreparedStatement ps = connection.prepareStatement(query)) {
             if (param != null) {
@@ -63,8 +92,8 @@ public class Operation extends DBConnection {
             System.out.println("\nEID | Name | Designation | Salary");
             System.out.println("-----------------------------------");
             while (rs.next()) {
-                System.out.printf("%d | %s | %s | %d\n",
-                        rs.getInt("eid"), rs.getString("name"),
+                System.out.printf("%s | %s | %s | %d\n",
+                        rs.getString("eid"), rs.getString("name"),
                         rs.getString("designation"), rs.getInt("salary"));
             }
         }

@@ -5,8 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class CURD {
@@ -124,7 +122,7 @@ public class CURD {
             ps.setInt(2, ID);
             int rs = ps.executeUpdate();
             System.out.println(rs+" rows affected");
-            System.out.println(" Deleted rows");
+            System.out.println(" Updated rows");
         }catch (SQLException e){
             System.out.println(e.getMessage());
             System.out.println("Table not Created");
